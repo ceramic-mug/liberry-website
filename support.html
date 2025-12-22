@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & Tips - Liberry</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    
+    <style>
+        /* Shared Styling from Privacy Policy */
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --container-bg: #ffffff;
+            --text-color: #333333;
+            --icon-bg: #e8f4fd; /* Matches primaryContainer light blue */
+            --icon-color: #2c3e50; /* Matches onPrimaryContainer */
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: var(--container-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+            border-radius: 18px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 2.2rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-top: 40px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #f1f1f1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Help Tip Specific Styling */
+        .section-header-note {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-left: 3px solid #eee;
+        }
+
+        .tip-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 24px;
+        }
+
+        .icon-box {
+            flex-shrink: 0;
+            background-color: var(--icon-bg);
+            color: var(--icon-color);
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
+        .material-icons-round {
+            font-size: 20px;
+        }
+
+        .tip-content {
+            flex: 1;
+        }
+
+        .tip-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+            display: block;
+            color: var(--primary-color);
+        }
+
+        .tip-description {
+            color: #555;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px auto;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .tip-item {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="header">
+            <img src="liberry_icon.png" alt="Liberry App Icon" class="logo">
+            <h1>Help & Tips</h1>
+        </div>
+
+        <h2>Getting Started & Discovery</h2>
+        
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">explore</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Discovering Books</span>
+                <p class="tip-description">Browse our curated collections or search for specific titles from supported repositories.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">download</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Downloading</span>
+                <p class="tip-description">Tap on any book to see details and download it to your library instantly.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">library_books</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Book Repositories</span>
+                <p class="tip-description">We support Project Gutenberg (60,000+ free ebooks) and Standard Ebooks (high-quality formatted editions).</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">insights</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Tracking Reading</span>
+                <p class="tip-description">Your reading progress is automatically saved. Jump back in anytime.</p>
+            </div>
+        </div>
+
+        <h2>Reader Controls</h2>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">swap_vert</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Scroll Modes</span>
+                <p class="tip-description">Switch between Vertical (default) and Horizontal scroll modes in the appearance settings.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">format_size</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Appearance Settings</span>
+                <p class="tip-description">Tap the "Tt" icon to change font size, themes, scroll direction, and margins.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">format_paint</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Annotations</span>
+                <p class="tip-description">Long-press text to select it, then choose to Highlight, add a Note, save a Character, or Define a word.</p>
+            </div>
+        </div>
+
+        <h2>Notes & Organizer</h2>
+        
+        <div class="section-header-note">
+            Create a powerful, connected database of content and ideas generated from your reading.
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">format_quote</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Highlights</span>
+                <p class="tip-description">View all your highlights across books. Link them to Journal Entries or Characters to build connections.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">edit_note</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Journal</span>
+                <p class="tip-description">Write personal thoughts and link them back to specific Highlights for context.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">bookmark</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Bookmarks</span>
+                <p class="tip-description">Access your saved bookmarks.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">people</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Characters</span>
+                <p class="tip-description">Track characters with custom bios and link Highlights to them to save as quotes.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">download</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Export</span>
+                <p class="tip-description">Export your highlights, notes, and characters to TXT or CSV formats for backup or external use.</p>
+            </div>
+        </div>
+
+        <h2>Library Management</h2>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">folder_special</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Collections</span>
+                <p class="tip-description">Organize your books by creating collections in the sidebar drawer.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">cloud_off</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Offloading Books</span>
+                <p class="tip-description">If you run low on space, you can offload a book to keep its metadata and highlights while removing the file.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">sync</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Syncing</span>
+                <p class="tip-description">Enable syncing in Settings to keep your library and progress consistent across devices.</p>
+            </div>
+        </div>
+
+        <h2>Advanced Features</h2>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">send</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Send to Kindle</span>
+                <p class="tip-description">Use the share button on a book details page to send it directly to your Kindle device.</p>
+            </div>
+        </div>
+
+        <div class="tip-item">
+            <div class="icon-box"><span class="material-icons-round">auto_stories</span></div>
+            <div class="tip-content">
+                <span class="tip-title">Reading Progress</span>
+                <p class="tip-description">We track both your current location and your furthest read point. You can jump back to your furthest point anytime.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
