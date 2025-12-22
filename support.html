@@ -6,153 +6,18 @@
     <link rel="icon" type="image/x-icon" href="liberry_icon.ico">
     <title>Support - Liberry</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-    
-    <style>
-        /* Shared Styling from Privacy Policy */
-        :root {
-            --primary-color: #2c3e50;
-            --accent-color: #3498db;
-            --bg-color: #f8f9fa;
-            --container-bg: #ffffff;
-            --text-color: #333333;
-            --icon-bg: #e8f4fd; /* Matches primaryContainer light blue */
-            --icon-color: #2c3e50; /* Matches onPrimaryContainer */
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: var(--container-bg);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-        }
-
-        .logo {
-            width: 80px;
-            height: auto;
-            border-radius: 18px;
-            margin-bottom: 15px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        h1 {
-            margin: 0;
-            color: var(--primary-color);
-            font-size: 2.2rem;
-        }
-
-        h2 {
-            color: var(--primary-color);
-            margin-top: 40px;
-            font-size: 1.5rem;
-            border-bottom: 2px solid #f1f1f1;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-
-        /* Help Tip Specific Styling */
-        .section-header-note {
-            font-style: italic;
-            color: #666;
-            margin-bottom: 20px;
-            padding-left: 10px;
-            border-left: 3px solid #eee;
-        }
-
-        .tip-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 24px;
-        }
-
-        .icon-box {
-            flex-shrink: 0;
-            background-color: var(--icon-bg);
-            color: var(--icon-color);
-            width: 40px;
-            height: 40px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 16px;
-        }
-
-        .material-icons-round {
-            font-size: 20px;
-        }
-
-        .tip-content {
-            flex: 1;
-        }
-
-        .tip-title {
-            font-weight: bold;
-            font-size: 1.1rem;
-            margin-bottom: 4px;
-            display: block;
-            color: var(--primary-color);
-        }
-
-        .tip-description {
-            color: #555;
-            font-size: 0.95rem;
-            margin: 0;
-        }
-
-        .contact-section {
-            background-color: #f1f1f1;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 40px;
-            text-align: center;
-        }
-
-        .email-link {
-            color: var(--accent-color);
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .email-link:hover {
-            text-decoration: underline;
-        }
-
-        /* Mobile adjustments */
-        @media (max-width: 600px) {
-            .container {
-                padding: 20px;
-                margin: 10px auto;
-            }
-            h1 {
-                font-size: 1.8rem;
-            }
-            .tip-item {
-                margin-bottom: 20px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
+
+        <div class="back-button-container">
+            <a href="index.html" class="btn-back">
+                <span class="material-icons-round">arrow_back</span>
+                Back
+            </a>
+        </div>
         
         <div class="header">
             <img src="liberry_icon.png" alt="Liberry App Icon" class="logo">
@@ -315,6 +180,12 @@
             <h3>Contact Us</h3>
             <p>Contact us with any questions at:</p>
             <p><a href="mailto:ceramic_mug@outlook.com" class="email-link">ceramic_mug@outlook.com</a></p>
+            <p style="margin-top: 20px;">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScl20QI4tSgw5xjN8x93k7lUyuyeGP7UnrGhw3GJEAZg8SZmA/viewform?usp=dialog" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                    <span class="material-icons-round">feedback</span>
+                    Submit Feedback
+                </a>
+            </p>
         </div>
 
 </body>
