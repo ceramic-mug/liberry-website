@@ -4,9 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-itunes-app" content="app-id=6756530423">
     <title>Liberry - Built for book lovers</title>
     <link rel="icon" type="image/x-icon" href="liberry_icon.ico">
     <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .app-store-btn {
+            display: inline-block;
+            margin: 10px;
+            transition: opacity 0.2s ease;
+        }
+        .app-store-btn:hover {
+            opacity: 0.8;
+        }
+        .app-store-btn img {
+            height: 50px; /* Adjust this height to match your other buttons if needed */
+            width: auto;
+            vertical-align: middle;
+        }
+        /* Update button-group to center items comfortably */
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body class="promotional-view">
@@ -17,6 +43,10 @@
         <p class="tagline">Built for book lovers. One-time purchase. No subscriptions. No limits.</p>
 
         <div class="button-group">
+            <a href="https://apps.apple.com/us/app/liberry/id6756530423" target="_blank" class="app-store-btn" aria-label="Download on the App Store">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store">
+            </a>
+            
             <a href="privacy.html" class="btn btn-secondary">Privacy Policy</a>
             <a href="support.html" class="btn btn-secondary">Help & Support</a>
         </div>
